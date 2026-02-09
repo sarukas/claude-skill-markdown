@@ -4,17 +4,19 @@ A Claude Code skill that converts documents to Markdown. Supports 14 formats (PD
 
 ## Installation
 
-Add this skill to your Claude Code project:
-
-```bash
-claude skill add --from https://github.com/sarukas/claude-skill-markdown
-```
-
-Or manually clone into your project's `.claude/skills/` directory:
+Clone into your project's `.claude/skills/` directory:
 
 ```bash
 git clone https://github.com/sarukas/claude-skill-markdown .claude/skills/markdown
 ```
+
+Or using community CLI tools:
+
+```bash
+npx add-skill sarukas/claude-skill-markdown
+```
+
+Claude Code automatically discovers skills from `SKILL.md` files in `.claude/skills/`.
 
 ### Dependencies
 
