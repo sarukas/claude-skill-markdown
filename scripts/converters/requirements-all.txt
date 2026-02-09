@@ -1,0 +1,6 @@
+# All converter dependencies (union of all format-specific requirements)
+-r requirements-pdf.txt
+-r requirements-xlsx.txt
+-r requirements-html.txt
+-r requirements-csv.txt
+-r requirements-markitdown.txt

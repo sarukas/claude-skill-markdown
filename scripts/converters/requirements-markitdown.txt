@@ -1,0 +1,2 @@
+# Markitdown-backed converters (DOCX, XLS, PPTX, EPUB, MSG, IPYNB, JSON/XML, ZIP, Images, Audio)
+markitdown[all]>=0.1.0
